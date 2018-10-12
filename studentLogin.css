@@ -18,18 +18,21 @@ button {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
 }
 
 button:hover {
     opacity: 0.5;
 }
-
+.abc{
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 10%;
+}
 .submitBtn{
-	width:100%;
-	background-color: blue;
-	font-family: cursive;
-	font-style: italic;
+    width:100%;
+    background-color: blue;
+    font-family: cursive;
+    font-style: italic;
 
 }
 .cancelbtn {
@@ -40,7 +43,14 @@ button:hover {
     font-style: italic;
 
 }
-
+.registerbtn{
+    /*float: center;*/
+    /*width:auto;*/
+    margin-top: 20%:
+    background-color: blue;
+    font-family: cursive;
+    font-style: italic;
+}
 
 
 .container {
@@ -55,7 +65,10 @@ span.pwd {
     float: right;
     padding-top: 16px;
 }
-
+span.reg{
+    float: left;
+    padding-top: 16px;
+}
 
 .login_disp {
     display: none; 
@@ -71,19 +84,19 @@ span.pwd {
     padding-top: 60px;
 }
 .major_container{
-	/*padding: 30%;*/
-	top:40%;
-	left:30%;
+    /*padding: 30%;*/
+    top:40%;
+    left:30%;
 }
-/* Modal Content/Box */
+
 .modal-content {
     background-color: #fefefe;
     margin: 5% auto 15% auto; 
     border: 1px solid #888;
     width: 50%; 
 
-
-.close {
+}
+.close{
     position: absolute;
     right: 25px;
     top: 0;
