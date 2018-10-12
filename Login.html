@@ -9,8 +9,10 @@
 <div class="major_container">
 	<h2>Student Login form</h2>
 	<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+	<h2 style="align-self: center;">Company Login Form</h2>
+	<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Login</button>
 </div>
-
+	
 <div id="id01" class="login_disp">
   
   <form class="modal-content animate" action="">
@@ -36,6 +38,25 @@
   </form>
 </div>
 
+<div id="id02" class="login_disp">
+	<form class="modal-content animate" action="" method="post">
+		<div class="container">
+	      <label for="uname"><b>Username</b></label>
+	      <input type="text" placeholder="Enter Username" name="uname" required>
+
+	      <label for="pwd"><b>Password</b></label>
+	      <input type="password" placeholder="Enter Password" name="psw" required>
+	        
+	      <button type="submit" class="submitBtn">Login</button>
+	      <label>
+	        <input type="checkbox" checked="checked" name="remember"> Remember me
+	      </label>
+	    </div>
+	    <div class="container" style="background-color: #f1f1f1;">
+	    	
+	    </div>
+	</form>
+</div>
 <script>
 
 var modal = document.getElementById('id01');
