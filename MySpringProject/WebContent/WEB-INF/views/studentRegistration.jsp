@@ -91,57 +91,57 @@
 							
 							<div class="wrap-input100 validate-input" data-validate="Door No is required">
 							<span class="label-input100">Door No</span>
-							<input class="input100" type="number" name="doorno" placeholder="Door No">
+							<input class="input100" type="number" name="Pdoorno" placeholder="Door No">
 							<span class="focus-input100"></span>
 						</div>
 				
 						<div class="wrap-input100 validate-input" data-validate="Street Name is required">
 							<span class="label-input100">Street Name</span>
-							<input class="input100" type="text" name="streetName" placeholder="Street Name">
+							<input class="input100" type="text" name="pstreetName" placeholder="Street Name">
 							<span class="focus-input100"></span>
 						</div>
 						
 						<div class="wrap-input100 validate-input" data-validate="City is Required">
 							<span class="label-input100">City</span>
-							<input class="input100" type="number" name="city" >
+							<!-- <input class="input100" type="text" name="pcity" > -->
 							<span class="label-input100">
-							<select>
-							<option>Mumbai</option>
-							<option>Pune</option>
-							<option>Banglore</option>
-							<option>Hyderabad</option>
-							<option>Chennai</optioN>
-							<option>other</option>
+							<select name="pcity">
+							<option value="Mumbai">Mumbai</option>
+							<option value="Pune">Pune</option>
+							<option value="Banglore">Banglore</option>
+							<option value="Huderabad">Hyderabad</option>
+							<option value="Chennai">Chennai</option>
+							<option value="other">other</option>
 							</select>
 							</span>
 						</div>
 						
 						<div class="wrap-input100 validate-input" data-validate="State is Required">
 							<span class="label-input100">State</span>
-							<input class="input100" type="number" name="state" >
+							<!-- <input class="input100" type="number" name="state" > -->
 							<span class="label-input100">
-							<select>
-							<option>Maharashtra</option>
-							<option>Kerala</option>
-							<option>Karnataka</option>
-							<option>Punjab</option>
-							<option>other</option>
+							<select name="pstate">
+							<option value="Maharashtra">Maharashtra</option>
+							<option value="Kerala">Kerala</option>
+							<option value="karnataka">Karnataka</option>
+							<option value="Punjab">Punjab</option>
+							<option value="other">other</option>
 							</select>
 							</span>
 						</div>
 						<div class="wrap-input100 validate-input" data-validate="Country is Required">
 							<span class="label-input100">Country</span>
-							<input class="input100" type="number" name="country" >
+							<!-- <input class="input100" type="number" name="country" > -->
 							<span class="label-input100">
-							<select>
-							<option>India</option>
-							<option>other</option>
+							<select name="pcountry">
+							<option value="India">India</option>
+							<option value="other">other</option>
 							</select>
 							</span>
 						</div>
 						<div class="wrap-input100 validate-input" data-validate="Pin code is required">
 							<span class="label-input100">Pin Code</span>
-							<input class="input100" type="number" name="pincode" placeholder="Pin code"maxlength="6">
+							<input class="input100" type="number" name="ppincode" placeholder="Pin code"maxlength="6">
 							<span class="focus-input100"></span>
 							
 						</div>
@@ -150,64 +150,65 @@
 							<input type="checkbox"/>
 							<div class="wrap-input100 validate-input" data-validate="Door No is required">
 							<span class="label-input100">Door No</span>
-							<input class="input100" type="text" name="doorno" placeholder="Door No">
+							<input class="input100" type="number" name="ldoorno" placeholder="Door No">
 							<span class="focus-input100"></span>
 						</div>
 				
 						<div class="wrap-input100 validate-input" data-validate="Street Name is required">
 							<span class="label-input100">Street Name</span>
-							<input class="input100" type="text" name="streetName" placeholder="Street Name">
+							<input class="input100" type="text" name="lstreetName" placeholder="Street Name">
 							<span class="focus-input100"></span>
 						</div>
-						 
-						 <div class="wrap-input100 validate-input" data-validate="City is Required">
+						
+						<div class="wrap-input100 validate-input" data-validate="City is Required">
 							<span class="label-input100">City</span>
-							<input class="input100" type="number" name="city" >
+							<!-- <input class="input100" type="text" name="pcity" > -->
 							<span class="label-input100">
-							<select>
-							<option>Mumbai</option>
-							<option>Pune</option>
-							<option>Banglore</option>
-							<option>Hyderabad</option>
-							<option>Chennai</optioN>
-							<option>other</option>
+							<select name="lcity">
+							<option value="Mumbai">Mumbai</option>
+							<option value="Pune">Pune</option>
+							<option value="Banglore">Banglore</option>
+							<option value="Huderabad">Hyderabad</option>
+							<option value="Chennai">Chennai</option>
+							<option value="other">other</option>
 							</select>
 							</span>
 						</div>
 						
 						<div class="wrap-input100 validate-input" data-validate="State is Required">
 							<span class="label-input100">State</span>
-							<input class="input100" type="number" name="state" >
+							<!-- <input class="input100" type="number" name="state" > -->
 							<span class="label-input100">
-							<select>
-							<option>Maharashtra</option>
-							<option>Kerala</option>
-							<option>Karnataka</option>
-							<option>Punjab</option>
-							<option>other</option>
+							<select name="lstate">
+							<option value="Maharashtra">Maharashtra</option>
+							<option value="Kerala">Kerala</option>
+							<option value="karnataka">Karnataka</option>
+							<option value="Punjab">Punjab</option>
+							<option value="other">other</option>
 							</select>
 							</span>
 						</div>
 						<div class="wrap-input100 validate-input" data-validate="Country is Required">
 							<span class="label-input100">Country</span>
-							<input class="input100" type="number" name="country" >
+							<!-- <input class="input100" type="number" name="country" > -->
 							<span class="label-input100">
-							<select>
-							<option>India</option>
-							<option>other</option>
+							<select name="lcountry">
+							<option value="India">India</option>
+							<option value="other">other</option>
 							</select>
 							</span>
 						</div>
 						<div class="wrap-input100 validate-input" data-validate="Pin code is required">
 							<span class="label-input100">Pin Code</span>
-							<input class="input100" type="number" name="pincode" placeholder="Pin code"maxlength="6">
+							<input class="input100" type="number" name="lpincode" placeholder="Pin code"maxlength="6">
 							<span class="focus-input100"></span>
+							
+						</div>
 							
 							
 							<div class="wrap-input100 validate-input" data-validate="Document is required">
                         <span class="label-input100">Upload Photo</span>
-                        <form action = "UploadServlet" method = "post"
-                         enctype = "multipart/form-data">
+                        <form action = "UploadServlet" method = "post" enctype = "multipart/form-data">
                          <input class="input100" type = "file" name ="photo" size = "15" /></form>
                           <span class="focus-input100"></span>
                           </div>
@@ -217,16 +218,16 @@
 						<span class="label-input100">SSC</span>
 						<div class="wrap-input100 validate-input" data-validate="percentage is required">
 							<span class="label-input100">Percentage</span>
-							<input class="input100" type="number" name="per" placeholder="percentage...">
+							<input class="input100" type="number" name="sscper" placeholder="percentage...">
 							<span class="focus-input100"></span>
 						</div>
 						
 						<div class="wrap-input100 validate-input" data-validate="percentage is required">
 							<span class="label-input100">Year of passing</span>
-							<select>
-							<option>2016</option>
-							<option>2017</option>
-							<option>2018</option>
+							<select name="SSCYearOfPassing">
+							<option value="2016">2016</option>
+							<option value="2017">2017</option>
+							<option value="2018">2018</option>
 							</select>
 							<span class="focus-input100"></span>
 						</div>
@@ -234,13 +235,13 @@
 						
 						<div class="wrap-input100 validate-input" data-validate="percentage is required">
 							<span class="label-input100">Syllabus</span>
-							<input class="input100" type="text" name="syllabus" placeholder="syllabus...">
+							<input class="input100" type="text" name="sscsyllabus" placeholder="syllabus...">
 							<span class="focus-input100"></span>
 						</div>
 						
 						<div class="wrap-input100 validate-input" data-validate="percentage is required">
 							<span class="label-input100">Board</span>
-							<input class="input100" type="text" name="board" placeholder="board...">
+							<input class="input100" type="text" name="sscboard" placeholder="board...">
 							<span class="focus-input100"></span>
 						</div>
 						<div class="wrap-input100 validate-input" data-validate="Document is required">
@@ -258,16 +259,16 @@
 						<span class="label-input100">HSC</span>
 						<div class="wrap-input100 validate-input" data-validate="percentage is required">
 							<span class="label-input100">Percentage</span>
-							<input class="input100" type="number" name="per" placeholder="percentage...">
+							<input class="input100" type="number" name="hscper" placeholder="percentage...">
 							<span class="focus-input100"></span>
 						</div>
 						
 						<div class="wrap-input100 validate-input" data-validate="percentage is required">
 							<span class="label-input100">Year of passing</span>
-							<select>
-							<option>2016</option>
-							<option>2017</option>
-							<option>2018</option>
+							<select name="hscYearOfPassing">
+							<option value="2016">2016</option>
+							<option value="2017">2017</option>
+							<option value="2018">2018</option>
 							</select>
 							<span class="focus-input100"></span>
 						</div>
@@ -275,13 +276,13 @@
 						
 						<div class="wrap-input100 validate-input" data-validate="percentage is required">
 							<span class="label-input100">Syllabus</span>
-							<input class="input100" type="text" name="syllabus" placeholder="syllabus...">
+							<input class="input100" type="text" name="hscsyllabus" placeholder="syllabus...">
 							<span class="focus-input100"></span>
 						</div>
 						
 						<div class="wrap-input100 validate-input" data-validate="percentage is required">
 							<span class="label-input100">Board</span>
-							<input class="input100" type="text" name="board" placeholder="board....">
+							<input class="input100" type="text" name="hscboard" placeholder="board....">
 							<span class="focus-input100"></span>
 						</div>
 						
@@ -298,7 +299,7 @@
 					<span class="label-input100">Graduation</span>
 						<div class="wrap-input100 validate-input" data-validate="percentage is required">
 							<span class="label-input100">Percentage</span>
-							<input class="input100" type="number" name="per" placeholder="percentage...">
+							<input class="input100" type="number" name="gradper" placeholder="percentage...">
 							<span class="focus-input100"></span>
 						</div>
 						
@@ -316,13 +317,13 @@
 						
 						<div class="wrap-input100 validate-input" data-validate="percentage is required">
 							<span class="label-input100">Syllabus</span>
-							<input class="input100" type="text" name="syllabus" placeholder="syllabus...">
+							<input class="input100" type="text" name="gradsyllabus" placeholder="syllabus...">
 							<span class="focus-input100"></span>
 						</div>
 						
 						<div class="wrap-input100 validate-input" data-validate="percentage is required">
 							<span class="label-input100">Board</span>
-							<input class="input100" type="text" name="per" placeholder="percentage...">
+							<input class="input100" type="text" name="gradper" placeholder="percentage...">
 							<span class="focus-input100"></span>
 						</div>
 						

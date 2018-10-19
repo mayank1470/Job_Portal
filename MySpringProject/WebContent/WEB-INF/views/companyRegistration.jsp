@@ -15,7 +15,7 @@
 			<div class="login100-more" ></div>
 
 			<div class="wrap-login100 p-l-50 p-r-50 p-t-72 p-b-50">
-				<form class="login100-form validate-form" action="companyRegistrationSuccess">
+				<form class="login100-form validate-form" action="companyRegistrationSuccess" method="post">
 					<span class="login100-form-title p-b-59">
 						Sign Up
 					</span>
@@ -52,7 +52,7 @@
 					
 
 					
-					<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<div class="wrap-input100 validate-input" data-validate="Description is required">
 							<span class="label-input100 validate-input">Comapny Description</span>
 							<input class="input100" type="text" name="description" placeholder="Company Description" maxlength="100">
 							<span class="focus-input100"></span>
@@ -69,13 +69,13 @@
 						<div class="wrap-input100 validate-input" data-validate="City is Required">
 							<span class="label-input100">City</span>
 							<span class="focus-input100">
-							<select>
-							<option>Mumbai</option>
-							<option>Pune</option>
-							<option>Banglore</option>
-							<option>Hyderabad</option>
-							<option>Chennai</optioN>
-							<option>other</option>
+							<select name="city">
+							<option value="Mumbai">Mumbai</option>
+							<option value="Pune">Pune</option>
+							<option value="Banglore">Banglore</option>
+							<option value="Hyderabad">Hyderabad</option>
+							<option value="Chennai">Chennai</option>
+							<option value="other">other</option>
 							</select>
 							
 							</span>
@@ -83,13 +83,13 @@
 						<div class="wrap-input100 validate-input" data-validate="State is required">
 							<span class="label-input100">State</span>
 							<span class="focus-input100">
-							<select name="studentState">
-							<option value="MH">Maharashtra</option>
-							<option>karnataka</option>
-							<option>kerala</option>
-							<option>Telangana</option>
-							<option>TamilNadu</optioN>
-							<option>other</option>
+							<select name="companyState">
+							<option value="Maharashtra">Maharashtra</option>
+							<option value="karnataka">karnataka</option>
+							<option value="kerala">kerala</option>
+							<option value="Telangana">Telangana</option>
+							<option value="TamilNadu">TamilNadu</option>
+							<option value="other">other</option>
 							</select>
 							</span>
 						</div>
@@ -97,9 +97,9 @@
 							<span class="label-input100">Country</span>
 							
 							<span class="focus-input100">
-							<select>
-							<option>India</option>
-							<option>other</option>
+							<select name="companyCountry">
+							<option value="India">India</option>
+							<option value="other">other</option>
 							</select>
 				            </span>
 						</div>
@@ -116,17 +116,17 @@
 						</div>
 						<div class="wrap-input100">
 							<span class="label-input100">Criteria</span><br>
-							<select>
-						<option>Above 60%</option>
-						<option>Above 70%</option>
-						<option>Above 80%</option>
-						<option>Above 90%</option>
+							<select name="criteria">
+						<option value="60">Above 60%</option>
+						<option value="70">Above 70%</option>
+						<option value="80">Above 80%</option>
+						<option value="90">Above 90%</option>
 </select>
 							<span class="focus-input100"></span>
 						</div>
 						<div class="wrap-input100 validate-input" data-validate="Package is required">
 							<span class="label-input100">Package Offered in LPA</span>
-							<input class="input100" type="number" name="package" placeholder="Package Offered" step=".01">
+							<input class="input100" type="number" name="packagee" placeholder="Package Offered" step=".01">
 							<span class="focus-input100"></span>
 						</div>
 						<div class="wrap-input100 validate-input" data-validate="No of posts are Important">
@@ -136,7 +136,7 @@
 						</div>
 						<div class="wrap-input100 validate-input" data-validate="Interview Process is required">
 							<span class="label-input100">Interview Process</span>
-							<input class="input100" type="text" name="streetName" placeholder="Street Name" maxlength="800">
+							<input class="input100" type="text" name="intprocess" placeholder="interview process" maxlength="800">
 							<span class="focus-input100"></span>
 						</div>
 						<div class="wrap-input100 validate-input" data-validate="Security Answers are required">
